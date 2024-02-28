@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .header {
+    text-align: center;
+    color: #333;
+  }
+  .intro {
+    color: #666;
+  }
+  .sidebar {
+    background: #e7e7e7;
+    padding: 20px;
+  }
+  .sidebar h3 {
+    color: #333;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-item {
+    flex: 1;
+    margin: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>Hello, I am a fullstack developer</h1>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item intro">
+      <p>My name is Alan Kuzmanovic. I originated from Bosnia, and now live in the United States. I am a young student, as well as an intellectual property specialist who is working at eBay. I dream of one day becoming a full time developer. I enjoy many things such as playing video games, listening, and making music, as well as eating at fancy restaurants. I am a quick learner, and I am always willing to try something new. In my free time I enjoy the simple things in life, such as kicking back and relaxing, meditating, cleaning, or dancing.</p>
+      <p>I am a very outdoorsy person. I love beautiful mountain ranges, barren deserts, and flourishing forests. Whenever I get the chance to hit a trail, or explore the wilderness I take it. I love activities that involve getting my adrenaline pumping. These activities include: Skiing, skateboarding, fire spinning, and rock climbing. If there is danger involved you better count me in!</p>
+      <!--<a href="/hire-me" class="button">Hire me Now</a>-->
+      <a href="/resume" class="button">View Resume</a>
+    </div>
+    <div class="flex-item sidebar">
+      <h3>Name</h3>
+      <p>Alan Kuzmanovic</p>
+      <h3>Date of birth</h3>
+      <p>October 20</p>
+      <h3>E-mail</h3>
+      <p>contact@alankuzy.com</p>
+      <h3>Location</h3>
+      <p>Midvale, UT</p>
+      <h3>Phone</h3>
+      <p>801-792-7638</p>
+      <h3>Website</h3>
+      <p>alankuzy.com</p>
+      <h3>Status</h3>
+      <p>Available for freelance</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
